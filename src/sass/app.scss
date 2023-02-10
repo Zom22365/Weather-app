@@ -1,0 +1,78 @@
+.App {
+  background: linear-gradient(
+    to bottom,
+    var(--black),
+    var(--gradient),
+    var(--green),
+    var(--green-light)
+  );
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 200px 40px;
+}
+
+.block-search {
+  width: 400px;
+  display: flex;
+  transform: translate(40px, 40px);
+  background-color: #ffffff86;
+  align-items: center;
+  padding: 0px 20px;
+  input {
+    width: 100%;
+    padding: 16px 1px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .fa-magnifying-glass {
+    color: #fff;
+    margin-left: 5px;
+    font-size: 20px;
+  }
+}
+
+.display-info {
+  text-align: center;
+  color: #fff;
+  padding: 60px 40px;
+  background-color: #201e1e86;
+}
+
+.city {
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+
+.temp {
+  font-size: 72px;
+  margin-bottom: 32px;
+}
+
+.list-card {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  width: 250px;
+  text-align: center;
+  color: #fff;
+  padding: 40px;
+  background-color: #201e1e86;
+}
+.name-card {
+  margin-bottom: 32px;
+}
